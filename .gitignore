@@ -1,0 +1,22 @@
+# Python and notebook artefacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Generated or potentially large project artefacts
+LLM_agent_for_MARICEL_BUSINESS/data/*.csv
+LLM_agent_for_MARICEL_BUSINESS/data/*.csv.gz
+LLM_agent_for_MARICEL_BUSINESS/outputs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
